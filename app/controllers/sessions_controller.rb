@@ -17,7 +17,7 @@ class SessionsController < ApplicationController
   end
 
   def destroy
-    
+    binding.pry
   end
 
 end
