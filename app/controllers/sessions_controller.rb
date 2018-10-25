@@ -20,6 +20,7 @@ class SessionsController < ApplicationController
     binding.pry
     if session[:name]
       session.delete :name
+    end
   end
 
 end
